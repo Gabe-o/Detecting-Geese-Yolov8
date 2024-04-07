@@ -1,0 +1,7 @@
+path: /home/gabeo/Code/SE4442/SE4442-Group-Project/data  # dataset root dir
+train: images/train  # train images (relative to 'path')
+val: images/test  # test images (relative to 'path')
+
+# Classes
+names:
+  0: goose
