@@ -22,7 +22,7 @@ Script for running prediction on videos
 ### test
 Test results of the trained models on the test set
 
-## training
+### training
 - **baseline:** yolov8n, default settings (image size 640, and default data augmentation settings)
 - **imgsz256:** yolov8n, image size set to 256
 - **no_augmentation:** yolov8n, disabled all data augmentation
