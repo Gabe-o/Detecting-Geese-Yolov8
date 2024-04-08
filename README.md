@@ -32,3 +32,13 @@ Test results of the trained models on the test set
 OS: ubuntu 22.04    
 CPU: Intel i7-9700k     
 GPU: NVIDIA Telsa K80
+
+## Reproducing Results
+To reproduce the results found some changes will have to be made to various files in the codebase.
+### config.yaml files
+These are used by the YOLO package to define the location and settings used for training, validation, testing, and benchmarking.
+it is very important that the `path` key contains the path from the root directory otherwise it will not work
+### device settings
+In many of the code files the you will see `device=[0,1]` this is configured to use GPU:0 and GPU:1 on the test machine if your machine does not contain multiple GPUs just set this to 0.
+### Training times
+In the current configuration on the hardware specified above training took anywhere from 30 minute to 2 hours.
