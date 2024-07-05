@@ -6,6 +6,8 @@ Date: 8 April 2024
 
 Detecting Canadian Geese in images using YOLOv8.
 
+## [Report](Report.pdf)
+
 ## Project Structure
 ### benchmark
 Benchmarks on the test set for various exports of the trained models on both the cpu and gpu
