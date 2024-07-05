@@ -1,5 +1,5 @@
-# SE4442-Group-Project
-Authors: Justin Chuang, Theodoros Kassa Aragie, Ahmad Abu Shawarib, and Gabriel Olivotto  
+# Detecting Geese with Yolov8
+Authors: Gabriel Olivotto, Justin Chuang, Theodoros Kassa Aragie, and Ahmad Abu Shawarib   
 Course ID: CS4442B     
 Instructors: Prof. Boyu Wang & Prof. Yalda Mohsenzadeh   
 Date: 8 April 2024
